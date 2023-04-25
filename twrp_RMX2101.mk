@@ -26,5 +26,5 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/base.mk)
 PRODUCT_DEVICE := RMX2101
 PRODUCT_NAME := twrp_RMX2101
 PRODUCT_BRAND := realme
-PRODUCT_MODEL := RMX2101
+PRODUCT_MODEL := realme c17
 PRODUCT_MANUFACTURER := realme

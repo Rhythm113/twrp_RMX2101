@@ -1,0 +1,14 @@
+[
+{
+    "remote":      "TeamWin",
+    "repository":  "android_device_qcom_twrp-common",
+    "target_path": "device/qcom/twrp-common",
+    "revision":    "android-10"
+  },
+  {
+    "remote": "github",
+    "repository": "realme-kernel-opensource/realme_C15_C17_7i-AndroidR-kernel-source",
+    "target_path": "kernel/realme/RMX2101",
+    "branch": "master"
+  }
+]

@@ -16,11 +16,6 @@
 
 PRODUCT_SHIPPING_API_LEVEL := 29
 
-# Crypto
-PRODUCT_PACKAGES += \
-    qcom_decrypt \
-    qcom_decrypt_fbe
-
 # Dynamic partition stuff
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
@@ -32,3 +27,8 @@ PRODUCT_COPY_FILES += \
 # Fastbootd stuff
 PRODUCT_PACKAGES += \
     android.hardware.fastboot@1.0-impl-mock
+    
+PRODUCT_PACKAGES_ENG += \
+    qcom_decrypt \
+    qcom_decrypt_fbe
+    
