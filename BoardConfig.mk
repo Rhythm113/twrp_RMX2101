@@ -130,9 +130,6 @@ VENDOR_SECURITY_PATCH := 2099-12-31
 PLATFORM_VERSION := 20.1.0
 
 
-# Add sepolicy for fixing binderfs mounting with android-10 sources
-include $(DEVICE_PATH)/sepolicy/sepolicy.mk
-
 # Take a few libraries from sources
 TARGET_RECOVERY_DEVICE_MODULES += \
     ashmemd_aidl_interface-cpp \
