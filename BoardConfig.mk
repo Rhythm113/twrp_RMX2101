@@ -109,9 +109,6 @@ BOARD_QTI_DYNAMIC_PARTITIONS_PARTITION_LIST := \
     vendor \
     odm
     
-    
-TARGET_RECOVERY_FSTAB := $(LOCAL_PATH)/recovery.fstab
-
 
 # System as root
 BOARD_ROOT_EXTRA_FOLDERS := bluetooth dsp firmware persist
